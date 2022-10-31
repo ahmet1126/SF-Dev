@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="LWC 5 (Body Mass Calculator)" icon-name="utility:trail">
+        <div class="slds-m-around_medium">
+            <lightning-input type="number" name="weight" onchange={changeHandler1} label="Weight (Pounds)" ></lightning-input>
+            <lightning-input type="number" name="height" onchange={changeHandler2} label="Height (Inches)" ></lightning-input>
+        </div>
+        <div class="slds-m-around_medium">
+            <lightning-button label="Calculate" onclick={buttonHandler}></lightning-button>
+        </div>
+        <div class="slds-m-around_medium">
+            <p>{result}</p>
+        </div>
+    </lightning-card>
+</template>

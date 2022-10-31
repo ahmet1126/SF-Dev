@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="LWC 13 (@Wire)">
+        <template if:true={wiredAccounts}>
+            <lightning-datatable key-field="Id" data={wiredAccounts.data} columns={columns}></lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

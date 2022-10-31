@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="LWC 3" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Name" onchange={changeHandler}></lightning-input>
+            <br/>
+            <p>Hello, {greeting}!</p>
+        </div>
+        <div class="slds-m-around_medium">
+            <lightning-button variant="destructive" title="Destructive" label="Click" onclick={buttonHandler}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
