@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="Title" type="String" default="Info Registration"/>
+            <property name="Footer" type="String" default=" " />  
+            <property name="UTM_Campaign" type="String" default=" " />  
+            <property name="UTM_Content" type="String" default=" " />  
+            <property name="UTM_Medium" type="String" default=" " />  
+            <property name="UTM_Referer" type="String" default=" " />  
+            <property name="UTM_Source" type="String" default=" " />  
+            <property name="UTM_Term" type="String" default=" " />  
+            <property name="utm_id" type="String" default=" " />  
+
+        </targetConfig>
+
+    </targetConfigs>
+
+</LightningComponentBundle>
